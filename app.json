@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SpacedRepetition",
-    "slug": "SpacedRepetition",
+    "slug": "spaced-repetition",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "cbb157a3-463b-4a1a-9131-cf0ae0462509"
+      }
+    },
+    "owner": "quanghuynt14"
   }
 }
